@@ -1,0 +1,63 @@
+body{
+    background: url('calc.jpg') no-repeat ;
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 4rem auto;
+    align-items: center;
+    /* background-color: lightblue; */
+}
+
+.calculator-box{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: lightskyblue;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 2px 2px 30px grey;
+    width: 12rem;
+    gap: 1rem;
+}
+
+.input-box input{
+    padding: 10px;
+    color: black;
+    font-size: large;
+    text-align: end;
+    border-radius: 5px;
+    border: none;
+    background-color: whitesmoke;
+    width: 10rem;
+    outline: none;
+}
+
+.btn-box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    background: transparent;
+    gap: 0.8rem;
+}
+
+.btn-box button{
+    border-radius: 1.5rem;
+    border: none;
+    box-shadow: 2px 2px 30px grey;   
+    color: black;
+    background-color: whitesmoke;
+    font-size: large;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.8rem 1.2rem;
+}
+
+button:active{
+    background-color: rgb(212, 211, 211);
+    transition: ease-in-out;
+    transform: scale(1.1);
+    transition-duration: 0.1s;
+}
